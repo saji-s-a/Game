@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/scoreHeaderTv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:nestedScrollingEnabled="false"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/gameConsoleRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
